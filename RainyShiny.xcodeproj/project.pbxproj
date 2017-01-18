@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A37F94D4A2015AC18B67FB5 /* Pods_RainyShinyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D0CD69FBE35C2B8AF2B615 /* Pods_RainyShinyTests.framework */; };
+		90CA90BFCF34084FEE32310C /* Pods_RainyShiny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA0DFFC8608C7B41C4EAA2 /* Pods_RainyShiny.framework */; };
 		C83704B41E2ED45300859549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83704B31E2ED45300859549 /* AppDelegate.swift */; };
-		C83704B61E2ED45300859549 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83704B51E2ED45300859549 /* ViewController.swift */; };
+		C83704B61E2ED45300859549 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83704B51E2ED45300859549 /* WeatherVC.swift */; };
 		C83704B91E2ED45300859549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83704B71E2ED45300859549 /* Main.storyboard */; };
 		C83704BB1E2ED45300859549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83704BA1E2ED45300859549 /* Assets.xcassets */; };
 		C83704BE1E2ED45300859549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83704BC1E2ED45300859549 /* LaunchScreen.storyboard */; };
 		C83704C91E2ED45300859549 /* RainyShinyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83704C81E2ED45300859549 /* RainyShinyTests.swift */; };
 		C83704D41E2ED45300859549 /* RainyShinyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83704D31E2ED45300859549 /* RainyShinyUITests.swift */; };
+		C83704E21E2EF5D400859549 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83704E11E2EF5D400859549 /* Constants.swift */; };
+		C83704E41E2EF7AB00859549 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83704E31E2EF7AB00859549 /* CurrentWeather.swift */; };
+		E96C6C0283AF7C075239FFB6 /* Pods_RainyShinyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB169462E7AEF61D33CFFC9 /* Pods_RainyShinyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EB169462E7AEF61D33CFFC9 /* Pods_RainyShinyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainyShinyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFA0DFFC8608C7B41C4EAA2 /* Pods_RainyShiny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainyShiny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D0CD69FBE35C2B8AF2B615 /* Pods_RainyShinyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainyShinyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5403E29674C1928CF6B6505A /* Pods-RainyShinyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyShinyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainyShinyUITests/Pods-RainyShinyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BC62139EB1C77456E8001D8 /* Pods-RainyShinyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyShinyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainyShinyTests/Pods-RainyShinyTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FE9D4CFA9F063AE6D3A32C0 /* Pods-RainyShiny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyShiny.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainyShiny/Pods-RainyShiny.release.xcconfig"; sourceTree = "<group>"; };
+		A4074BCB463DE6380178ADA7 /* Pods-RainyShinyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyShinyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainyShinyTests/Pods-RainyShinyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE77C5ECD0DC8A5B3E796112 /* Pods-RainyShinyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyShinyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainyShinyUITests/Pods-RainyShinyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C83704B01E2ED45300859549 /* RainyShiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainyShiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83704B31E2ED45300859549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C83704B51E2ED45300859549 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C83704B51E2ED45300859549 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		C83704B81E2ED45300859549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C83704BA1E2ED45300859549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C83704BD1E2ED45300859549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		C83704CF1E2ED45300859549 /* RainyShinyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainyShinyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83704D31E2ED45300859549 /* RainyShinyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainyShinyUITests.swift; sourceTree = "<group>"; };
 		C83704D51E2ED45300859549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83704E11E2EF5D400859549 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C83704E31E2EF7AB00859549 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		CC3492E9BADDDDDBB2989F5F /* Pods-RainyShiny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyShiny.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainyShiny/Pods-RainyShiny.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CA90BFCF34084FEE32310C /* Pods_RainyShiny.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A37F94D4A2015AC18B67FB5 /* Pods_RainyShinyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96C6C0283AF7C075239FFB6 /* Pods_RainyShinyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CE4B803987DEF60D62AB4ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC3492E9BADDDDDBB2989F5F /* Pods-RainyShiny.debug.xcconfig */,
+				9FE9D4CFA9F063AE6D3A32C0 /* Pods-RainyShiny.release.xcconfig */,
+				A4074BCB463DE6380178ADA7 /* Pods-RainyShinyTests.debug.xcconfig */,
+				7BC62139EB1C77456E8001D8 /* Pods-RainyShinyTests.release.xcconfig */,
+				5403E29674C1928CF6B6505A /* Pods-RainyShinyUITests.debug.xcconfig */,
+				BE77C5ECD0DC8A5B3E796112 /* Pods-RainyShinyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0354A5120A05F76166F5157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA0DFFC8608C7B41C4EAA2 /* Pods_RainyShiny.framework */,
+				47D0CD69FBE35C2B8AF2B615 /* Pods_RainyShinyTests.framework */,
+				2EB169462E7AEF61D33CFFC9 /* Pods_RainyShinyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C83704A71E2ED45100859549 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				C83704C71E2ED45300859549 /* RainyShinyTests */,
 				C83704D21E2ED45300859549 /* RainyShinyUITests */,
 				C83704B11E2ED45300859549 /* Products */,
+				9CE4B803987DEF60D62AB4ED /* Pods */,
+				C0354A5120A05F76166F5157 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +142,13 @@
 			isa = PBXGroup;
 			children = (
 				C83704B31E2ED45300859549 /* AppDelegate.swift */,
-				C83704B51E2ED45300859549 /* ViewController.swift */,
+				C83704B51E2ED45300859549 /* WeatherVC.swift */,
 				C83704B71E2ED45300859549 /* Main.storyboard */,
 				C83704BA1E2ED45300859549 /* Assets.xcassets */,
 				C83704BC1E2ED45300859549 /* LaunchScreen.storyboard */,
 				C83704BF1E2ED45300859549 /* Info.plist */,
+				C83704E11E2EF5D400859549 /* Constants.swift */,
+				C83704E31E2EF7AB00859549 /* CurrentWeather.swift */,
 			);
 			path = RainyShiny;
 			sourceTree = "<group>";
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C83704D81E2ED45300859549 /* Build configuration list for PBXNativeTarget "RainyShiny" */;
 			buildPhases = (
+				7D463599D34601A693C2FD99 /* [CP] Check Pods Manifest.lock */,
 				C83704AC1E2ED45200859549 /* Sources */,
 				C83704AD1E2ED45200859549 /* Frameworks */,
 				C83704AE1E2ED45200859549 /* Resources */,
+				91A8CFBBB4E5BA8DFF8EFA2B /* [CP] Embed Pods Frameworks */,
+				BC4800B7D6EADCABC42099DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C83704DB1E2ED45300859549 /* Build configuration list for PBXNativeTarget "RainyShinyTests" */;
 			buildPhases = (
+				4EC79367A6A706442FF5A6AD /* [CP] Check Pods Manifest.lock */,
 				C83704C01E2ED45300859549 /* Sources */,
 				C83704C11E2ED45300859549 /* Frameworks */,
 				C83704C21E2ED45300859549 /* Resources */,
+				7B7FA42929B6A5850ACE4B79 /* [CP] Embed Pods Frameworks */,
+				B8F836881D5340509DFD81D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C83704DE1E2ED45300859549 /* Build configuration list for PBXNativeTarget "RainyShinyUITests" */;
 			buildPhases = (
+				69F55E3DE34FD3D3CDBFD457 /* [CP] Check Pods Manifest.lock */,
 				C83704CB1E2ED45300859549 /* Sources */,
 				C83704CC1E2ED45300859549 /* Frameworks */,
 				C83704CD1E2ED45300859549 /* Resources */,
+				669DA9C5D9187DBAF4F9FF19 /* [CP] Embed Pods Frameworks */,
+				9E3308AF96F7E6BB2E8396D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +312,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EC79367A6A706442FF5A6AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		669DA9C5D9187DBAF4F9FF19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainyShinyUITests/Pods-RainyShinyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69F55E3DE34FD3D3CDBFD457 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B7FA42929B6A5850ACE4B79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainyShinyTests/Pods-RainyShinyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D463599D34601A693C2FD99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91A8CFBBB4E5BA8DFF8EFA2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainyShiny/Pods-RainyShiny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3308AF96F7E6BB2E8396D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainyShinyUITests/Pods-RainyShinyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F836881D5340509DFD81D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainyShinyTests/Pods-RainyShinyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4800B7D6EADCABC42099DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainyShiny/Pods-RainyShiny-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C83704AC1E2ED45200859549 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C83704B61E2ED45300859549 /* ViewController.swift in Sources */,
+				C83704B61E2ED45300859549 /* WeatherVC.swift in Sources */,
 				C83704B41E2ED45300859549 /* AppDelegate.swift in Sources */,
+				C83704E41E2EF7AB00859549 /* CurrentWeather.swift in Sources */,
+				C83704E21E2EF5D400859549 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +608,7 @@
 		};
 		C83704D91E2ED45300859549 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3492E9BADDDDDBB2989F5F /* Pods-RainyShiny.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KU79VH2JQ4;
@@ -421,11 +617,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.quimper.RainyShiny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C83704DA1E2ED45300859549 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE9D4CFA9F063AE6D3A32C0 /* Pods-RainyShiny.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KU79VH2JQ4;
@@ -434,11 +632,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.quimper.RainyShiny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		C83704DC1E2ED45300859549 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4074BCB463DE6380178ADA7 /* Pods-RainyShinyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +654,7 @@
 		};
 		C83704DD1E2ED45300859549 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC62139EB1C77456E8001D8 /* Pods-RainyShinyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +670,7 @@
 		};
 		C83704DF1E2ED45300859549 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5403E29674C1928CF6B6505A /* Pods-RainyShinyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = KU79VH2JQ4;
@@ -483,6 +685,7 @@
 		};
 		C83704E01E2ED45300859549 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE77C5ECD0DC8A5B3E796112 /* Pods-RainyShinyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = KU79VH2JQ4;
@@ -514,6 +717,7 @@
 				C83704DA1E2ED45300859549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C83704DB1E2ED45300859549 /* Build configuration list for PBXNativeTarget "RainyShinyTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +726,7 @@
 				C83704DD1E2ED45300859549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C83704DE1E2ED45300859549 /* Build configuration list for PBXNativeTarget "RainyShinyUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +735,7 @@
 				C83704E01E2ED45300859549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
